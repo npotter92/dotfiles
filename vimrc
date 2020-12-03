@@ -14,3 +14,13 @@ set softtabstop=4         " unify
 set shiftwidth=4          " indent/outdent by 4 columns
 set expandtab             " use spaces instead of tabs
 set nowrap                " don't wrap text
+
+" Get rid of being able to use the arrow keys to navigate!
+noremap  <Up> ""
+noremap! <Up> <Esc>
+noremap  <Down> ""
+noremap! <Down> <Esc>
+noremap  <Left> ""
+noremap! <Left> <Esc>
+noremap  <Right> ""
+noremap! <Right> <Esc>
